@@ -1,0 +1,133 @@
+import { themes, Appear, Head, Image } from "mdx-deck";
+
+import { Hello, Img, Cover } from "./components/index";
+
+export const theme = themes.dark;
+
+<Head>
+  <title>React.js com TypeScript: O que pode dar errado?</title>
+</Head>
+<Cover />
+
+---
+
+<Hello />
+
+---
+
+<Img src="./assets/bebe-assustado.gif" style={{ width: "60%" }} />
+
+---
+
+## Por que?
+
+![](assets/print.png)
+
+---
+
+Benefícios de um código tipado
+
+<ul>
+  <Appear>
+    <li>Escalabilidade</li>
+    <li>Legibilidade</li>
+    <li>Produtividade</li>
+  </Appear>
+</ul>
+
+---
+
+<Img src="https://media.giphy.com/media/CjmvTCZf2U3p09Cn0h/giphy.gif" />
+
+---
+
+## PropTypes x TypeScript
+
+---
+
+<Img src="./assets/proptypes-exemplo.png" />
+
+---
+
+import TodoPropTypes, { todos } from "./exemplos/TodoPropTypes";
+
+<TodoPropTypes todos={todos} />
+
+---
+
+## Exemplo: PropTypes
+
+<Img src="./assets/todo-proptypes.png" />
+
+---
+
+## Exemplo: TypeScript
+
+<Img src="./assets/todo-type.png" />
+
+---
+
+<Img src="./assets/type-exemplo.png" />
+
+---
+
+## Pontos positivos
+
+<ul>
+  <Appear>
+    <li>Desacoplamento</li>
+    <li>
+      <strong>Legibilidade</strong>
+    </li>
+    <li>Melhor DX</li>
+  </Appear>
+</ul>
+
+---
+
+## _Developer Experience_
+
+<Img src="./assets/exemplo-typescript.gif" />
+
+---
+
+## Type Composition
+
+<ul>
+  <Appear>
+    <li>Pick</li>
+    <li>Omit</li>
+    <li>NonNullable</li>
+    <li>ReadOnly</li>
+  </Appear>
+</ul>
+
+---
+
+## Type Composition: Pick
+
+<Img src="./assets/type-composition-1.png" />
+
+---
+
+## Type Composition: Omit
+
+<Img src="./assets/type-composition-2.png" />
+
+---
+
+## Type Composition: NonNullable
+
+<Img src="./assets/type-composition-3.png" />
+
+---
+
+## Type Composition: ReadOnly
+
+<Img src="./assets/type-composition-4.png" />
+
+---
+
+## Type Composition: ReadOnly
+
+<Img src="./assets/type-composition-5.png" />
